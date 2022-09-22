@@ -1,0 +1,146 @@
+@media (prefers-color-scheme: dark) {
+    body { background: #333; color: white; }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body { background: #f5f5ff; color: black; }
+  }
+
+  body
+  {
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.9rem;
+    cursor:default;
+    
+    -webkit-user-select: none;
+     user-select: none;
+  }
+
+
+  main
+  {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+  }
+
+  section
+  {
+     background-color:white ;
+
+  }
+
+  .stat-section
+  {
+    width: 100%;
+    height: 100%;
+    margin-left: 3px;
+    overflow-y: auto;
+ 
+  }
+
+  .user-section
+  {
+    min-width: 356px;
+  }
+.user-data
+{
+  margin-top:20px ;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.notebook .buttons a
+{
+margin:0;
+background-color: none;
+border:1px solid #f0f0ff;
+padding: 10px 20px;
+}
+
+.social-buttons
+{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.social-buttons button
+{
+border-radius: 5px;
+}
+
+.block-user
+{
+
+  border:1px solid rgb(145, 12, 12);
+  color: rgb(145, 12, 12);
+}
+
+.block-user:hover
+{
+
+  background-color:rgb(145, 12, 12);
+  color: rgb(255, 255, 255);
+}
+.add-friend
+{
+  border:1px solid rgb(6, 126, 196);
+  color: rgb(6, 126, 196);
+}
+
+.add-friend:hover
+{
+  background-color: #0077e0;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.social-buttons button
+{
+padding: 10px 20px;
+margin-bottom: 10px;
+}
+
+.notebook .buttons a:hover
+{
+background-color:#e9f5ff;
+}
+
+.item:hover
+{
+  background-color:#e9f5ff;
+}
+.notebook .buttons a.active
+{
+border-bottom:4px solid #0077e0;
+}
+
+.buttons 
+{
+  display: flex;
+  position: sticky;
+  top:-1px;
+  background-color: white;
+}
+
+.user-data span
+{
+  display: flex;
+justify-content: space-between;
+padding: 5px;
+
+}
+  i
+  {
+    font-weight: bold;
+  }
+
+  
